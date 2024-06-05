@@ -1,0 +1,362 @@
+/* Global reset */
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/* Styles for cat card */
+.cat-card {
+    background-color: transparent; /* Transparent background */
+    max-width: 70%; /* Maximum width */
+   display: flex;
+   flex-direction: column;
+   gap: 10px;
+    box-shadow: 0px 0px 10px 1px rgb(222, 222, 222); /* Box shadow */
+    height: 60% !important; /* Height */
+    position: relative !important; /* Position */
+    border-radius: 20px !important; /* Border radius */
+    padding: 20px !important; /* Padding */
+    height: min-content; /* Maximum content height */
+background-color: transparent;
+}
+
+/* Styles for cats section title */
+.cats_sec > h1 {
+    font-size: 14px; /* Font size */
+    text-align: left; /* Text alignment */
+}
+
+/* Styles for cat card head section */
+.cat-card-head {
+    height: 20%; /* Height */
+    text-align: left; /* Text alignment */
+}
+
+/* Styles for cat card head span */
+.cat-card-head > span {
+    padding: 4px 6px; /* Padding */
+    box-shadow: rgba(6, 6, 6, 0.05) 0px 2px 6px 0px; /* Box shadow */
+    border-radius: 10px; /* Border radius */
+    border: 1px solid rgb(230, 230, 230); /* Border */
+    font-weight: 400; /* Font weight */
+    line-height: 1.5; /* Line height */
+    font-size: 9px; /* Font size */
+    color: #656565; /* Text color */
+}
+
+/* Styles for cat card main section */
+.cat-card-main-sec {
+    height: 80%; /* Height */
+    display: flex; /* Flex display */
+    flex-direction: column; /* Column layout */
+    gap: 10px; /* Gap */
+}
+
+/* Styles for cat card main section head */
+.cat-card-main-sec-head {
+    display: flex; /* Flex display */
+    flex-direction: row; /* Row layout */
+    padding: 10px 5px; /* Padding */
+    height: 50%; /* Height */
+    line-height: 0; /* Line height */
+}
+
+/* Styles for cat card main section head image */
+.cat-card-main-sec-head > img {
+    height: 40px; /* Height */
+    width: 10%; /* Width */
+    line-height: 0; /* Line height */
+}
+
+/* Styles for cat card main section head cat info */
+.ccmshinhead {
+    width: 90%; /* Width */
+    text-align: left; /* Text alignment */
+    padding: 0px 10px; /* Padding */
+    display: flex; /* Flex display */
+    flex-direction: column; /* Column layout */
+    gap: 0px; /* Gap */
+    height: fit-content; /* Height */
+}
+
+/* Styles for cat card main section head cat id */
+.ccmshinhead > h2 {
+    font-size: 13px; /* Font size */
+    font-weight: 600; /* Font weight */
+    letter-spacing: 1px; /* Letter spacing */
+    margin-bottom: 3px; /* Margin bottom */
+    color: #8b8b8b; /* Text color */
+    height: fit-content; /* Height */
+    line-height: 1.2; /* Line height */
+}
+
+/* Styles for cat card main section head cat dimensions */
+.ccmshinhead > p {
+    font-size: 14px; /* Font size */
+    font-weight: 500; /* Font weight */
+    letter-spacing: 1px; /* Letter spacing */
+    margin-bottom: 3px; /* Margin bottom */
+    color: #000000; /* Text color */
+    height: fit-content; /* Height */
+    line-height: 1.2; /* Line height */
+}
+
+/* Styles for cat card dimensions section */
+.cat-card-dimensions {
+    height: fit-content; /* Height */
+    padding: 0 5px; /* Padding */
+    text-align: left; /* Text alignment */
+    height: 10%; /* Height */
+    margin: 8px 0; /* Margin */
+}
+
+/* Styles for cat card about cat section */
+.cat-card-about-cat {
+    text-align: left; /* Text alignment */
+    width: 100%; /* Width */
+    height: 50%; /* Minimum height */
+    background-color: transparent;
+}
+
+/* Styles for cat card about cat label */
+.cat-card-about-cat > label {
+    font-size: 16px; /* Font size */
+    font-weight: 400 !important; /* Font weight */
+    line-height: .1; /* Line height */
+    text-align: left; /* Text alignment */
+}
+
+/* Styles for cat card about cat description */
+.cat-card-about-cat > p {
+    font-size: 13px; /* Font size */
+    font-weight: 400; /* Font weight */
+    text-align: left; /* Text alignment */
+}
+
+/* Styles for cat card view more button */
+.cat-card-about-cat > .view-cat-btn {
+    position: relative; /* Position */
+    width: 90%; /* Width */
+    height: 100%;
+    margin: auto;
+    bottom: 0px; /* Bottom position */
+    background: linear-gradient(to top, rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0)); /* Gradient background */
+    text-align: center; /* Text alignment */
+    padding: 10px 0 0 0; /* Padding */
+    border: 0px solid transparent; /* Border */
+    color: blue; /* Text color */
+    cursor: pointer; /* Cursor */
+}
+
+/* Styles for cat card dimensions section */
+.cat-card-dim-sal {
+    width: 100%; /* Width */
+    text-align: left; /* Text alignment */
+    display: flex; /* Flex display */
+    flex-direction: column; /* Column layout */
+    gap: .8px; /* Gap */
+    color: #8b8b8b; /* Text color */
+    height: 20%; /* Height */
+    font-weight: 500 !important; /* Font weight */
+}
+
+/* Styles for cat card dimensions section span */
+.cat-card-dim-sal > span {
+    color: black; /* Text color */
+    font-weight: 400; /* Font weight */
+}
+
+/* Styles for cat details section */
+.cat-details {
+    display: flex; /* Flex display */
+    flex-direction: column; /* Column layout */
+    gap: 10px; /* Gap */
+    height: 15%; /* Height */
+}
+ 
+/* Styles for cat details buttons */
+.cat-details > a > button {
+    width: 100%; /* Width */
+    padding: 8px 18px; /* Padding */
+    border: 0px solid transparent; /* Border */
+    border-radius: 8px; /* Border radius */
+    cursor: pointer;
+}
+
+/* Styles for view button */
+.cat-details-view-btn {
+    font-size: 16px; /* Font size */
+    font-weight: 500; /* Font weight */
+    color: #000000; /* Text color */
+    background-color: rgb(85, 239, 196); /* Background color */
+}
+
+/* Styles for more info button */
+.cat-details-more-info {
+    background-color: #4943da; /* Background color */
+}
+
+.cdetailsin{
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    width: fit-content;
+    margin: auto;
+    gap: 5px;
+}
+
+.cdetailsin>img{
+    background-color: #FF5733;
+    padding: .8rem;
+    border-radius: 50px;
+}
+
+.cdetailsin>p{
+    margin-left: .2rem;
+    font-size: 14px; /* Font size */
+    color: #ffffff; /* Text color */
+}
+
+/* Styles for modal overlay */
+.modal-overlay {
+    z-index: 100000;
+    position: fixed; /* Position */
+    top: 0; /* Top position */
+    left: 0; /* Left position */
+    width: 100%; /* Width */
+    height: 100%; /* Height */
+    background-color: rgba(0, 0, 0, 0.3); /* Background color */
+    z-index: 999; /* Z-index */
+    display: flex; /* Flex display */
+    justify-content: center; /* Justify content */
+    align-items: center; /* Align items */
+}
+
+/* Styles for modal */
+.modal {
+    position: absolute; /* Position */
+    top: 50%; /* Top position */
+    left: 50%; /* Left position */
+    transform: translate(-50%, -50%); /* Centering */
+    min-width: 400px; /* Minimum width */
+    max-width: 80%; /* Maximum width */
+    max-height: 70vh;
+     /* Maximum height */
+    overflow-y: auto; /* Overflow */
+    background-color: rgb(255, 255, 255); /* Background color */
+    outline: solid 0px; /* Outline */
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 11px 15px -7px, rgba(0, 0, 0, 0.14) 0px 24px 38px 3px, rgba(0, 0, 0, 0.12) 0px 9px 46px 8px; /* Box shadow */
+    padding: 16px; /* Padding */
+    border-radius: 10px; /* Border radius */
+}
+
+/* Styles for modal header */
+.modal-head {
+    width: 95%; /* Width */
+    height: 20%; /* Height */
+    position: fixed; /* Position */
+    display: flex; /* Flex display */
+    flex-direction: row; /* Row layout */
+}
+
+/* Styles for modal header label */
+.modal-head > label {
+    margin: 0px 0px 15px; /* Margin */
+    font-size: 1.25rem; /* Font size */
+    line-height: 1.6; /* Line height */
+    text-align: center; /* Text alignment */
+    font-weight: 600 !important; /* Font weight */
+    width: 100%; /* Width */
+}
+
+/* Styles for modal content */
+.modal-content {
+    margin-top: 10%; /* Margin top */
+    min-height: 80%; /* Minimum height */
+    max-height: 80%; /* Maximum height */
+    overflow-y: auto; /* Overflow */
+    text-align: left; /* Text alignment */
+    display: flex; /* Flex display */
+    flex-direction: column; /* Column layout */
+}
+
+/* Styles for modal content span */
+.modal-content span {
+    font-weight: 500 !important; /* Font weight */
+    font-size: 15px; /* Font size */
+    margin-bottom: .2rem; /* Margin bottom */
+}
+
+/* Styles for modal content headings and paragraphs */
+.modal-content h2,
+.modal-content p {
+    margin-bottom: 10px; /* Margin bottom */
+    font-weight: 300 !important; /* Font weight */
+    line-height: 1.5; /* Line height */
+    font-size: 13px; /* Font size */
+    white-space: pre-wrap; /* White space */
+    border-radius: 30px;
+    padding: .2rem .7rem;
+    box-shadow: rgba(6, 6, 6, 0.05) 0px 2px 6px 0px;
+
+    border: 1px solid rgb(230, 230, 230);
+}
+.modal>.modal-content>img{
+    height: 60%;
+    width: 60%;
+    margin: auto;
+    border-radius: 5px;
+}
+.model-cont-abimg{
+ display: flex;
+ flex-direction: row;
+ gap: 20px;
+ margin: auto;   
+ padding: 1rem;
+ justify-content: center;
+}
+.model-cont-abimg>button{
+    cursor: pointer;
+    padding: .2rem .7rem;
+    font-size: 14px;
+    font-weight: 700;
+    border-radius: 30px;
+    background-color: aquamarine;
+border: 0.5px solid aquamarine;
+}  
+.model-cont-abimg>button:hover{
+    font-weight: 900;
+}
+/* Styles for close button */
+.close {
+    position: absolute; /* Position */
+    top: 10px; /* Top position */
+    right: 10px; /* Right position */
+    cursor: pointer; /* Cursor */
+}
+
+/* Animation for fade in */
+@keyframes fadeIn {
+    from {
+        opacity: 0; /* From opacity */
+    }
+    to {
+        opacity: 1; /* To opacity */
+    }
+}
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+    .modal {
+        min-width: 300px !important; /* Minimum width */
+        max-width: 80%; /* Maximum width */
+    }
+}
+
+/* Media query for larger screens */
+@media (min-width: 1200px) {
+    .modal {
+        width: 60%; /* Width */
+    }
+}
